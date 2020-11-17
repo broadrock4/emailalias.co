@@ -1,4 +1,4 @@
-<?php include "../inc/dbinfo.inc"; ?>
+<?php include "file:///C|/Users/tybur/Documents/Email Alias/inc/dbinfo.inc"; ?>
 <html>
 <body>
 <h1>Sample page</h1>

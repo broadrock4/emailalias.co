@@ -1,5 +1,5 @@
 <?php
-include('../html/config.php');
+include('config.php');
 
 if (isset($_GET["key"]) && isset($_GET["email"]) && isset($_GET["action"]) 
 && ($_GET["action"]=="reset") && !isset($_POST["action"])){
@@ -22,7 +22,7 @@ Click here</a> to reset password.</p>';
   $expDate = $row['expDate'];
   if ($expDate >= $curDate){
   ?>
- <link rel="stylesheet" href="../Styles/emailAlias.css">
+ <link rel="stylesheet" href="file:///C|/Users/tybur/Documents/Email Alias/Styles/emailAlias.css">
   <br />
   <form method="post" action="" name="update">
   <input type="hidden" name="action" value="update" />

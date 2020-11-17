@@ -9,7 +9,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 }
  
 // Include config file
-include "../html/config.php";
+include "config.php";
  
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -94,11 +94,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="../Styles/emailAlias.css">
+    <link rel="stylesheet" href="file:///C|/Users/tybur/Documents/Email Alias/Styles/emailAlias.css">
   
 </head>
 <body class = "loginBody">
-	<img src="../Styles/Logo.png" alt="Logo" style="width:50%;">
+	<img src="file:///C|/Users/tybur/Documents/Email Alias/Styles/Logo.png" alt="Logo" style="width:50%;">
     <div>
 		
         <h2>Login</h2>
@@ -118,9 +118,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class= "submitButtons" value="Login">
             </div>
-            <p>Don't have an account? <a href="../create.php">Sign up now</a>
+            <p>Don't have an account? <a href="file:///C|/Users/tybur/Documents/Email Alias/create.php">Sign up now</a>
 				<br/> <br/>
-				<a class="forgotLink" href="../index.php">Forgot Password</a></p>
+				<a class="forgotLink" href="file:///C|/Users/tybur/Documents/Email Alias/index.php">Forgot Password</a></p>
 			 
         </form>
     </div>    

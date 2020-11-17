@@ -47,16 +47,16 @@ if (!isset($_GET['code']) && !isset($_GET['provider'])) {
 ?>
 <html>
 <body>Select Provider:<br/>
-<a href='?provider=Google'>Google</a><br/>
-<a href='?provider=Yahoo'>Yahoo</a><br/>
-<a href='?provider=Microsoft'>Microsoft/Outlook/Hotmail/Live/Office365</a><br/>
+<a href='../../../../../phpmailer/vendor/phpmailer/phpmailer/?provider=Google'>Google</a><br/>
+<a href='../../../../../phpmailer/vendor/phpmailer/phpmailer/?provider=Yahoo'>Yahoo</a><br/>
+<a href='../../../../../phpmailer/vendor/phpmailer/phpmailer/?provider=Microsoft'>Microsoft/Outlook/Hotmail/Live/Office365</a><br/>
 </body>
 </html>
 <?php
 exit;
 }
 
-require 'vendor/autoload.php';
+require '../../../../../phpmailer/vendor/phpmailer/phpmailer/vendor/autoload.php';
 
 session_start();
 

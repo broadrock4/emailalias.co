@@ -1,6 +1,6 @@
 <?php
 // Include config file
-include "../html/config.php";
+include "config.php";
  
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = $first_name = $last_name = $email = "";
@@ -121,14 +121,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="../Styles/emailAlias.css">
+    <link rel="stylesheet" href="file:///C|/Users/tybur/Documents/Email Alias/Styles/emailAlias.css">
     <style type="text/css">
         body{ font: 14px sans-serif; }
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
 <body class="loginBody">
-	<img src="../Styles/Logo.png" alt="Logo" style="width:50%;">
+	<img src="file:///C|/Users/tybur/Documents/Email Alias/Styles/Logo.png" alt="Logo" style="width:50%;">
     <div>
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>
@@ -168,7 +168,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="submit" class="submitButtons" value="Submit">
                 <input type="reset" class="submitButtons" value="Reset">
             </div>
-            <p>Already have an account? <a href="../Login.php">Login here</a>.</p>
+            <p>Already have an account? <a href="file:///C|/Users/tybur/Documents/Email Alias/Login.php">Login here</a>.</p>
         </form>
     </div>    
 </body>

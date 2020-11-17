@@ -14,20 +14,21 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
- 	<link rel="stylesheet" href="../Styles/emailAlias.css">
+ 	<link rel="stylesheet" href="file:///C|/Users/tybur/Documents/Email Alias/Styles/emailAlias.css">
     <style type="text/css">
         body{ font: 14px sans-serif; text-align: center; }
     </style>
 </head>
 <body>
     <div class="page-header">
-		<img src="../Styles/Logo.png" alt="Logo" style="width:50%;">
+		<img src="file:///C|/Users/tybur/Documents/Email Alias/Styles/Logo.png" alt="Logo" style="width:50%;">
         <p>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to Email Alias.</p>
     </div>
 	
 	<div class="navBar">
 	
-  <a class="active" href="../home.php">Home</a>
+  <a class="active" href="file:///C|/Users/tybur/Documents/Email Alias/home.php">Home</a>
+  <a href="#newEmail">New Email</a>
   <a href="#newAlias">New Alias</a>
   <a href="#newContact">New Contact</a>
   <a href="#editAlias">Edit Alias</a>
@@ -36,8 +37,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	
 	<footer>
 	<p>
-        <a href="index.php" class="btn btn-warning">Reset Your Password</a>
-        <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
+        <a href="html/index.php" class="btn btn-warning">Reset Your Password</a>
+        <a href="html/logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
 	</footer>
     

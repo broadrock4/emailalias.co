@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-include('../html/config.php');
+include('html/config.php');
 
 if(isset($_POST["email"]) && (!empty($_POST["email"]))){
 $email = $_POST["email"];
@@ -53,7 +53,7 @@ $subject = "Password Recovery - AllPHPTricks.com";
  
 $email_to = $email;
 $fromserver = "tyburdick4@gmail.com"; 
-require '../html/phpmailer/vendor/autoload.php';
+require 'html/phpmailer/vendor/autoload.php';
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
@@ -78,12 +78,14 @@ echo "<div class='error'>
    }
 }else{
 ?>
-<link rel="stylesheet" href="../Styles/emailAlias.css">
-<form method="post" action="" name="reset"><br /><br />
+<link rel="stylesheet" href="file:///C|/Users/tybur/Documents/Email Alias/Styles/emailAlias.css">
+<form method="post" action="" name="reset" class="indexLocation"><br /><br />
 <label><strong>Enter Your Email Address:</strong></label><br /><br />
 <input type="email" name="email" class="form-control" placeholder="username@email.com" />
 <br /><br />
 <input type="submit" class="submitButtons" value="Reset Password"/>
+	<p>Don't want to change password </p>
+<a href="file:///C|/Users/tybur/Documents/Email Alias/Login.php" class="submitButtons">Cancel</a>
 </form>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
