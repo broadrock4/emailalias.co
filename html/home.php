@@ -38,7 +38,7 @@ body {
     <br/>
     <br/>
     <div class="oval"> <br/>
-      <h3> Groups </h3>
+      <h3> Groups </h3> 
       <?php
       include "../html/config.php";
       $sql = "SELECT username FROM users";
