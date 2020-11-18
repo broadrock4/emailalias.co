@@ -49,7 +49,7 @@ body {
           echo "<div class='group_table'>" . $row[ "username" ] . "<br>" . "</div>";
         }
       } else {
-        echo "0 results";
+        echo "0 results"; 
       }
 		
       ?>
