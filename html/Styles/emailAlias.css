@@ -39,6 +39,21 @@ a:hover {
   font-family: "American Typewriter";
   padding: 10px;
 }
+
+.oval{
+  width: 100%;
+  height: 475px;
+  background: rgba(17, 18, 35, 0.79);
+  border-radius: 100px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.oval h3 {
+  font-size: 3vh;
+}
+.flipped{
+direction: rtl;
+}
 .group_table {
   background-color: steelblue;
   font-family: "American Typewriter";
@@ -112,23 +127,31 @@ a.landingLogin:hover {
 .navBar-right {
   float: right;
 }
+
+
+
+
 /* Home CSS */
 .container-grid {
   display: grid;
-  grid-template-columns: 30% 70%; /*columns widths*/
+  grid-template-columns: 28% 70%; /*columns widths*/
   height: 40vh;
 }
 .col-1 {
+	text-align: center;
   font-family: "American Typewriter";
-  margin-right: 10px;
+  margin-right: 5px;
+  
 }
 .col-2 {
   font-family: "American Typewriter";
-  margin: 5px;
+  margin-left: 5px;
+	padding-left: 10px;
 }
 
 .col-2 h2{
 	 font-size: 3vh;
+	
 }
 
 .inboxArea {
@@ -137,15 +160,8 @@ a.landingLogin:hover {
   max-height: 500px;
   min-height: 500px;
 }
-.oval {
-  width: 100%;
-  height: 475px;
-  background: rgba(17, 18, 35, 0.79);
-  border-radius: 100px;
-}
-.oval h3 {
-  font-size: 3vh;
-}
-.oval form {
-  overflow-y: scroll;
-}
+
+
+
+
+

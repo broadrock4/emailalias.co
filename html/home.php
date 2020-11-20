@@ -37,10 +37,11 @@ body {
     <br/>
     <br/>
     <br/>
-    <div class="oval"> <br/>
+    <div class="oval flipped"> <br/>
       <h3> Groups </h3> 
       <?php
       include "../html/config.php";
+		$tempUser = ($_SESSION['id']);
       $sql = "SELECT username FROM users";
       $result = $link->query( $sql );
 

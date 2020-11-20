@@ -9,4 +9,13 @@
 <file name="reset-password.php" server="3.15.195.211//var/www/" local="132499652080000000" remote="132499652080000000" Dst="1" />
 <file name="test.php" server="3.15.195.211//var/www/" local="132494566910000000" remote="132494566910000000" Dst="1" />
 <file name="groupDisplay.php" server="3.15.195.211//var/www/" local="132500627904318805" remote="132500628510000000" Dst="1" />
+<file name="config.php" server="3.139.224.86//var/www/" local="132494626000000000" remote="132494626000000000" Dst="1" />
+<file name="Login.php" server="3.139.224.86//var/www/" local="132499652080000000" remote="132499652080000000" Dst="1" />
+<file name="index.php" server="3.139.224.86//var/www/" local="132502257035687267" remote="132502257120000000" Dst="1" />
+<file name="logout.php" server="3.139.224.86//var/www/" local="132499624520000000" remote="132499624520000000" Dst="1" />
+<file name="reset-password.php" server="3.139.224.86//var/www/" local="132499652080000000" remote="132499652080000000" Dst="1" />
+<file name="create.php" server="3.139.224.86//var/www/" local="132502297536267232" remote="132503101270000000" Dst="1" />
+<file name="test.php" server="3.139.224.86//var/www/" local="132494566910000000" remote="132494566910000000" Dst="1" />
+<file name="groupDisplay.php" server="3.139.224.86//var/www/" local="132500627904318805" remote="132503101280000000" Dst="1" />
+<file name="home.php" server="3.139.224.86//var/www/" local="132503119942510103" remote="132503120220000000" Dst="1" />
 </dwsync>
