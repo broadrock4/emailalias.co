@@ -67,7 +67,7 @@ body {
   <div class="col-2">
     <h2> Inbox </h2>
     <form action="">
-      <textarea class="inboxArea" placeholder="Insert inbox?"> </textarea>
+       <textarea class="inboxArea" placeholder="Insert inbox?"> </textarea>
     </form>
   </div>
 </div>

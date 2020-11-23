@@ -68,9 +68,7 @@ mysqli_query($link, $sql);
  
 mysqli_query($link,"DELETE FROM `password_reset_temp` WHERE `email`='".$email."';");
  
-echo '<div class="error"><p>Congratulations! Your password has been updated successfully.</p>
-<p><a href="../Login.php">
-Click here</a> to Login.</p></div><br />';
+header("location: ../home.php");
    } 
 }
 ?>

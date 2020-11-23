@@ -38,8 +38,8 @@ VALUES ('".$email."', '".$key."', '".$expDate."');");
 $output='<p>Dear user,</p>';
 $output.='<p>Please click on the following link to reset your password.</p>';
 $output.='<p>-------------------------------------------------------------</p>';
-$output.='<p><a href="http://3.139.224.86/reset-password.php?key='.$key.'&email='.$email.'&action=reset" target="_blank">
-http://3.139.224.86/reset-password.php?key='.$key.'&email='.$email.'&action=reset</a></p>';
+$output.='<p><a href="http://www.emailalias.co/reset-password.php?key='.$key.'&email='.$email.'&action=reset" target="_blank">
+http://www.emailalias.co/reset-password.php?key='.$key.'&email='.$email.'&action=reset</a></p>';
 $output.='<p>-------------------------------------------------------------</p>';
 $output.='<p>Please be sure to copy the entire link into your browser.
 The link will expire after 1 day for security reason.</p>';
@@ -47,9 +47,9 @@ $output.='<p>If you did not request this forgotten password email, no action
 is needed, your password will not be reset. However, you may want to log into 
 your account and change your security password as someone may have guessed it.</p>';   
 $output.='<p>Thanks,</p>';
-$output.='<p>AllPHPTricks Team</p>';
+$output.='<p>Email Alias Team</p>';
 $body = $output; 
-$subject = "Password Recovery - AllPHPTricks.com";
+$subject = "Password Recovery - www.emailalias.co";
  
 $email_to = $email;
 $fromserver = "tyburdick4@gmail.com"; 
