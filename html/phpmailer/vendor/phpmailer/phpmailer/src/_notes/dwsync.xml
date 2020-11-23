@@ -5,4 +5,9 @@
 <file name="PHPMailer.php" server="3.15.195.211//var/www/" local="132494637760000000" remote="132494637760000000" Dst="1" />
 <file name="POP3.php" server="3.15.195.211//var/www/" local="132494637760000000" remote="132494637760000000" Dst="1" />
 <file name="SMTP.php" server="3.15.195.211//var/www/" local="132494637760000000" remote="132494637760000000" Dst="1" />
+<file name="Exception.php" server="3.139.224.86//var/www/" local="132494637750000000" remote="132494637750000000" Dst="1" />
+<file name="OAuth.php" server="3.139.224.86//var/www/" local="132494637750000000" remote="132494637750000000" Dst="1" />
+<file name="PHPMailer.php" server="3.139.224.86//var/www/" local="132494637760000000" remote="132494637760000000" Dst="1" />
+<file name="POP3.php" server="3.139.224.86//var/www/" local="132494637760000000" remote="132494637760000000" Dst="1" />
+<file name="SMTP.php" server="3.139.224.86//var/www/" local="132494637760000000" remote="132494637760000000" Dst="1" />
 </dwsync>

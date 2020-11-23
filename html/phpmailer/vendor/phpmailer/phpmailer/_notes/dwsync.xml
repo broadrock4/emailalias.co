@@ -7,4 +7,11 @@
 <file name="README.md" server="3.15.195.211//var/www/" local="132494637780000000" remote="132494637780000000" Dst="1" />
 <file name="SECURITY.md" server="3.15.195.211//var/www/" local="132494637790000000" remote="132494637790000000" Dst="1" />
 <file name="VERSION" server="3.15.195.211//var/www/" local="132494637790000000" remote="132494637790000000" Dst="1" />
+<file name="COMMITMENT" server="3.139.224.86//var/www/" local="132494637770000000" remote="132494637770000000" Dst="1" />
+<file name="composer.json" server="3.139.224.86//var/www/" local="132494637770000000" remote="132494637770000000" Dst="1" />
+<file name="get_oauth_token.php" server="3.139.224.86//var/www/" local="132494637780000000" remote="132494637780000000" Dst="1" />
+<file name="LICENSE" server="3.139.224.86//var/www/" local="132494637780000000" remote="132494637780000000" Dst="1" />
+<file name="README.md" server="3.139.224.86//var/www/" local="132494637780000000" remote="132494637780000000" Dst="1" />
+<file name="SECURITY.md" server="3.139.224.86//var/www/" local="132494637790000000" remote="132494637790000000" Dst="1" />
+<file name="VERSION" server="3.139.224.86//var/www/" local="132494637790000000" remote="132494637790000000" Dst="1" />
 </dwsync>
