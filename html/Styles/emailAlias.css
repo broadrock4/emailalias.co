@@ -47,7 +47,7 @@ a:hover {
   padding-right: 10px;
 }
 .oval h3 {
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 .flipped {
   direction: rtl;
@@ -134,6 +134,9 @@ a.landingLogin:hover {
   font-family: "American Typewriter";
   margin-right: 5px;
 }
+.col-1 h3 {
+  text-decoration: underline;
+}
 .col-2 {
   font-family: "American Typewriter";
   margin-left: 10px;
@@ -141,6 +144,7 @@ a.landingLogin:hover {
 }
 .col-2 h2 {
   font-size: 3vh;
+	text-decoration: underline;
 }
 .inboxArea {
   max-width: 100%;
@@ -165,7 +169,7 @@ a.landingLogin:hover {
   margin-left: 50px;
 }
 .oval-newAlias h3 {
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 
 /* Contact */
@@ -192,7 +196,21 @@ a.landingLogin:hover {
 .column {
   float: left;
   width: 31%;
-	margin-left: 15px;
+margin-left: 15px;
+}
+
+.column h3{
+  font-size: 2.5vh;
+	text-decoration: underline;
+}
+.column p{
+	font-size: 2vh;
+	text-decoration: none;
+}
+
+.column label{
+	font-size: 2vh;
+	text-decoration: underline;
 }
 
 /* Clear floats after the columns */

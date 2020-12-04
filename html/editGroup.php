@@ -45,7 +45,7 @@ body {
     <br/>
     <br/>
     <div style="background-color: rgba(17, 18, 35, 0.79); height: 500px"> <br/>
-      <h3> Groups </h3> 
+      <h3> <?PHP echo htmlspecialchars($_SESSION["username"]); ?>'s Groups </h3> 
       <?php
       include "../html/config.php";
 		$tempUser = ($_SESSION['id']);
@@ -100,8 +100,8 @@ body {
     <br/>
     <br/>
 		 <div style="background-color: rgba(17, 18, 35, 0.79); height: 500px">
-		  <h3> Edit Group </h>
-			 <p> Must specify group name to the left before editing a group</p>
+		  <h3> Edit Group </h3>
+			 <p style="font-size: 1.5vh"> Must specify group name to the left before editing a group</p>
   	<form action="../addContact.php" method="post">
 		</br>
 		</br>

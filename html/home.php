@@ -46,7 +46,7 @@ body {
     <br/>
     <br/>
     <div class="oval flipped"> <br/>
-      <h3> Groups </h3> 
+      <h3> <?PHP echo htmlspecialchars($_SESSION["username"]); ?>'s Groups </h3> 
       <?php
       include "../html/config.php";
 		$tempUser = ($_SESSION['id']);

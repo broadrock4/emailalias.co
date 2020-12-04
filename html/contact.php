@@ -47,7 +47,7 @@ body {
     <br/>
     <br/>
     <div class="oval flipped"> <br/>
-      <h3> Contacts </h3> 
+      <h3> <?PHP echo htmlspecialchars($_SESSION["username"]); ?>'s Contacts </h3> 
       <?php
       include "../html/config.php";
 		$tempUser = ($_SESSION['id']);
@@ -79,7 +79,7 @@ body {
 		<input type="submit" id="submit" name="submit" class="submitButtons" value="Submit">
     </form>
 		  <p> Click to add contact to an existing group</p>
-		<a href="../edit.php"> Edit Alias </a>
+		<a href="../editGroup.php"> Edit Alias </a>
 	  </div>
   </div>
 </div>

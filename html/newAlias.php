@@ -49,7 +49,7 @@ body {
     <br/>
     <br/>
     <div class="oval-newAlias flipped"> <br/>
-      <h3> Groups </h3> 
+      <h3> <?PHP echo htmlspecialchars($_SESSION["username"]); ?>'s Groups </h3> 
       <?php
       include "../html/config.php";
 		$tempUser = ($_SESSION['id']);
@@ -78,7 +78,7 @@ body {
 	<br/>
       
 	<div class="oval-newAlias"> <br/>
-		<h3> Group Name </h3>
+		<h2> Add Group </h2>
       <form action="../addGroup.php" method="post">
       <input type="text" name="group_name" required placeholder="Enter Group Name" class="form-control"/>
 		 <p> Must specify at least two emails. </p>
