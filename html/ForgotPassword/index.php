@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-include('../html/config.php');
+include('../Config/config.php');
 
 if(isset($_POST["email"]) && (!empty($_POST["email"]))){
 $email = $_POST["email"];
@@ -12,7 +12,7 @@ $email = filter_var($email, FILTER_VALIDATE_EMAIL);
 if (!$email) {
    $error .="<p>Invalid email address please type a valid email address!</p>";
    }else{
-   $sel_query = "SELECT * FROM `users` WHERE email='".$email."'";
+   $sel_query = "SELECT * FROM users WHERE email='".$email."'";
    $results = mysqli_query($link,$sel_query);
    $row = mysqli_num_rows($results);
    if ($row==""){
@@ -38,8 +38,8 @@ VALUES ('".$email."', '".$key."', '".$expDate."');");
 $output='<p>Dear user,</p>';
 $output.='<p>Please click on the following link to reset your password.</p>';
 $output.='<p>-------------------------------------------------------------</p>';
-$output.='<p><a href="http://www.emailalias.co/reset-password.php?key='.$key.'&email='.$email.'&action=reset" target="_blank">
-http://www.emailalias.co/reset-password.php?key='.$key.'&email='.$email.'&action=reset</a></p>';
+$output.='<p><a href="http://www.emailalias.co/ForgotPassword/reset-password.php?key='.$key.'&email='.$email.'&action=reset" target="_blank">
+http://www.emailalias.co/ForgptPassword/reset-password.php?key='.$key.'&email='.$email.'&action=reset</a></p>';
 $output.='<p>-------------------------------------------------------------</p>';
 $output.='<p>Please be sure to copy the entire link into your browser.
 The link will expire after 1 day for security reason.</p>';
@@ -53,7 +53,7 @@ $subject = "Password Recovery - www.emailalias.co";
  
 $email_to = $email;
 $fromserver = "tyburdick4@gmail.com"; 
-require '../html/phpmailer/vendor/autoload.php';
+include('../phpmailer/vendor/autoload.php');
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
@@ -85,7 +85,7 @@ echo "<div class='error'>
 <br /><br />
 <input type="submit" class="submitButtons" value="Reset Password"/>
 	<p>Don't want to change password </p>
-<a href="../Login.php" class="submitButtons">Cancel</a>
+<a href="../Login/Login.php" class="submitButtons">Cancel</a>
 </form>
 <p>&nbsp;</p>
 <p>&nbsp;</p>

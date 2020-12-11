@@ -4,12 +4,12 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: ../home.php");
+    header("location: ../Home/home.php");
     exit;
 }
  
 // Include config file
-include "../html/config.php";
+include "../Config/config.php";
  
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -66,7 +66,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             // Redirect user to welcome page
-                            header("location: ../home.php");
+                            header("location: ../Home/home.php");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = "The password you entered is not valid.";
@@ -118,9 +118,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class= "submitButtons" value="Login">
             </div>
-            <p>Don't have an account? <a href="../create.php">Sign up now</a>
+            <p>Don't have an account? <a href="../SignUp/create.php">Sign up now</a>
 				<br/> <br/>
-				<a class="forgotLink" href="../index.php">Forgot Password</a></p>
+				<a class="forgotLink" href="../ForgotPassword/index.php">Forgot Password</a></p>
 			 
         </form>
     </div>    

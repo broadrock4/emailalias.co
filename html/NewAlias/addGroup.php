@@ -6,10 +6,10 @@ session_start();
 
 // Check if the user is logged in, if not then redirect him to login page
 if ( !isset( $_SESSION[ "loggedin" ] ) || $_SESSION[ "loggedin" ] !== true ) {
-  header( "location: Login.php" );
+  header( "location: ../Login/Login.php" );
   exit;
 }
- include "../html/config.php";
+ include "../Config/config.php";
 //user input
 $group_name = mysqli_real_escape_string($link, $_POST['group_name']);
 $email1 = mysqli_real_escape_string($link, $_POST['email1']);
@@ -27,7 +27,7 @@ $id_user = $_SESSION["id"];
  $sql = "INSERT INTO groups (group_name, email1, email2, email3, email4, email5, email6, email7, email8, email9, email10, id_user) VALUES ('$group_name','$email1', '$email2', '$email3', '$email4', '$email5', '$email6', '$email7', '$email8', '$email9', '$email10', '$id_user')";
 if(mysqli_query($link, $sql)){
     echo "Records inserted successfully.";
-	header("location: ../home.php");
+	header("location: ../NewAlias/newAlias.php");
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }

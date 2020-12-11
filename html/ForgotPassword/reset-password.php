@@ -1,5 +1,5 @@
 <?php
-include('../html/config.php');
+include('../Config/config.php');
 
 if (isset($_GET["key"]) && isset($_GET["email"]) && isset($_GET["action"]) 
 && ($_GET["action"]=="reset") && !isset($_POST["action"])){
@@ -68,7 +68,7 @@ mysqli_query($link, $sql);
  
 mysqli_query($link,"DELETE FROM `password_reset_temp` WHERE `email`='".$email."';");
  
-header("location: ../home.php");
+header("location: ../Login/Login.php");
    } 
 }
 ?>

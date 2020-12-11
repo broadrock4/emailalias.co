@@ -7,7 +7,7 @@ session_start();
 
 // Check if the user is logged in, if not then redirect him to login page
 if ( !isset( $_SESSION[ "loggedin" ] ) || $_SESSION[ "loggedin" ] !== true ) {
-  header( "location: Login.php" );
+  header( "location: /Login/Login.php" );
   exit;
 }
 
@@ -33,14 +33,14 @@ body {
   <p><b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Create new groups .</p>
 </div>
 <div class="navBar"> 
-	<a  href="../home.php">Home</a> 
-	<a href="#newEmail">New Email</a> 
-	<a class="active" href="../newAlias.php">New Alias</a> 
-	<a href="../contact.php">New Contact</a> 
-	<a href="../editGroup.php">Edit Alias</a>
+	<a class="active" href="../Home/home.php">Home</a> 
+	<a href="#newEmail.php">New Email</a> 
+	<a href="../NewAlias/newAlias.php">New Alias</a> 
+	<a href="../Contact/contact.php">New Contact</a> 
+	<a href="../EditAlias/editGroup.php">Edit Alias</a>
   <div class="navBar-right"> 
-	  <a href="../index.php">Reset Password</a> 
-	  <a href="../logout.php">Sign Out</a> 
+	  <a href="../ForgotPassword/index.php">Reset Password</a> 
+	  <a href="../Login/logout.php">Sign Out</a> 
 	</div>
 </div>
 <div class="container-grid-alias">
@@ -51,7 +51,7 @@ body {
     <div class="oval-newAlias flipped"> <br/>
       <h3> <?PHP echo htmlspecialchars($_SESSION["username"]); ?>'s Groups </h3> 
       <?php
-      include "../html/config.php";
+      include "../Config/config.php";
 		$tempUser = ($_SESSION['id']);
       $sql = "SELECT username FROM users";
       $result = $link->query( $sql );
@@ -79,7 +79,7 @@ body {
       
 	<div class="oval-newAlias"> <br/>
 		<h2> Add Group </h2>
-      <form action="../addGroup.php" method="post">
+      <form action="../NewAlias/addGroup.php" method="post">
       <input type="text" name="group_name" required placeholder="Enter Group Name" class="form-control"/>
 		 <p> Must specify at least two emails. </p>
       <input type="email" name="email1" required placeholder="Enter email" class="form-control"/>

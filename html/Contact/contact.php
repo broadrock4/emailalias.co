@@ -7,7 +7,7 @@ session_start();
 
 // Check if the user is logged in, if not then redirect him to login page
 if ( !isset( $_SESSION[ "loggedin" ] ) || $_SESSION[ "loggedin" ] !== true ) {
-  header( "location: Login.php" );
+  header( "location: ../Login/Login.php" );
   exit;
 }
 ?>
@@ -30,14 +30,14 @@ body {
   <p>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Create New Contact.</p>
 </div>
 <div class="navBar"> 
-	<a href="../home.php">Home</a> 
+	<a class="active" href="../Home/home.php">Home</a> 
 	<a href="#newEmail.php">New Email</a> 
-	<a href="../newAlias.php">New Alias</a> 
-	<a class="active" href="../newContact.php">New Contact</a> 
-	<a href="../editGroup.php">Edit Alias</a>
+	<a href="../NewAlias/newAlias.php">New Alias</a> 
+	<a href="../Contact/contact.php">New Contact</a> 
+	<a href="../EditAlias/editGroup.php">Edit Alias</a>
   <div class="navBar-right"> 
-	  <a href="../index.php">Reset Password</a> 
-	  <a href="../logout.php">Sign Out</a> 
+	  <a href="../ForgotPassword/index.php">Reset Password</a> 
+	  <a href="../Login/logout.php">Sign Out</a> 
 	</div>
 </div>
 <div class="container-grid">
@@ -49,7 +49,7 @@ body {
     <div class="oval flipped"> <br/>
       <h3> <?PHP echo htmlspecialchars($_SESSION["username"]); ?>'s Contacts </h3> 
       <?php
-      include "../html/config.php";
+      include "../Config/config.php";
 		$tempUser = ($_SESSION['id']);
       $sql = "SELECT contact_name FROM contact WHERE user_id = '$tempUser'";
       $result = $link->query( $sql );
@@ -71,7 +71,7 @@ body {
     <br/>
 	  <div style="background-color: rgba(17, 18, 35, 0.79); height: 460px">
     <h2> Contact Name </h2>
-    <form action="newContact.php" method="POST">
+    <form action="../Contact/newContact.php" method="POST">
      <input type="text" name="contact_name" required placeholder="Name" class="newContactForm"/>
 		<h2> Contact Email </h2>
 		<input type="text" name="contact_email" required placeholder="Email" class="newContactForm"/>
@@ -79,7 +79,7 @@ body {
 		<input type="submit" id="submit" name="submit" class="submitButtons" value="Submit">
     </form>
 		  <p> Click to add contact to an existing group</p>
-		<a href="../editGroup.php"> Edit Alias </a>
+		<a href="../EditAlias/editGroup.php"> Edit Alias </a>
 	  </div>
   </div>
 </div>

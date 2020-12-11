@@ -4,7 +4,7 @@ session_start();
 
 // Check if the user is logged in, if not then redirect him to login page
 if ( !isset( $_SESSION[ "loggedin" ] ) || $_SESSION[ "loggedin" ] !== true ) {
-  header( "location: Login.php" );
+  header( "location: ../Login/Login.php" );
   exit;
 }
 	
@@ -28,14 +28,14 @@ body {
   <p>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Edit an Existing Group.</p>
 </div>
 <div class="navBar"> 
-	<a href="../home.php">Home</a> 
+	<a class="active" href="../Home/home.php">Home</a> 
 	<a href="#newEmail.php">New Email</a> 
-	<a href="../newAlias.php">New Alias</a> 
-	<a href="../contact.php">New Contact</a> 
-	<a class="active" href="../editGroup.php">Edit Alias</a>
+	<a href="../NewAlias/newAlias.php">New Alias</a> 
+	<a href="../Contact/contact.php">New Contact</a> 
+	<a href="../EditAlias/editGroup.php">Edit Alias</a>
   <div class="navBar-right"> 
-	  <a href="../index.php">Reset Password</a> 
-	  <a href="../logout.php">Sign Out</a> 
+	  <a href="../ForgotPassword/index.php">Reset Password</a> 
+	  <a href="../Login/logout.php">Sign Out</a> 
 	</div>
 </div>
 	<div class="row">
@@ -44,10 +44,10 @@ body {
     <br/>
     <br/>
     <br/>
-    <div style="background-color: rgba(17, 18, 35, 0.79); height: 500px"> <br/>
+    <div style="background-color: rgba(17, 18, 35, 0.79); height: 500px; overflow-y: scroll"> <br/>
       <h3> <?PHP echo htmlspecialchars($_SESSION["username"]); ?>'s Groups </h3> 
       <?php
-      include "../html/config.php";
+      include "../Config/config.php";
 		$tempUser = ($_SESSION['id']);
       $sql = "SELECT group_name FROM groups WHERE id_user = '$tempUser'";
       $result = $link->query( $sql );
@@ -68,7 +68,7 @@ body {
     <br/>
 	  <div style="background-color: rgba(17, 18, 35, 0.79); height: 500px">
 		  <h3> Enter Group Name </h>
-  	<form action="../showGroupEmails.php" method="post">
+  	<form action="../EditAlias/showGroupEmails.php" method="post">
      <input type="text" name="group_name" required placeholder="Name" class="form-control"/>
 		</br>
 		<input type="submit" id="submit" name="submit" class="submitButtons" value="Submit"> 
@@ -76,7 +76,7 @@ body {
 		  <h3> Emails </h3> 
 		  <div class="showEmails">
 		  <?php 
-			  include "../html/config.php";
+			  include "../Config/config.php";
 		  $tempGroup = $_SESSION["group_name"];
 		  $tempUser = $_SESSION["id"];
 		  $sql2 = "SELECT email1, email2, email3, email4, email5, email6, email7, email8, email9, email10 FROM groups WHERE id_user ='$tempUser' AND group_name = '$tempGroup'";
@@ -102,7 +102,7 @@ body {
 		 <div style="background-color: rgba(17, 18, 35, 0.79); height: 500px">
 		  <h3> Edit Group </h3>
 			 <p style="font-size: 1.5vh"> Must specify group name to the left before editing a group</p>
-  	<form action="../addContact.php" method="post">
+  	<form action="../EditAlias/addContact.php" method="post">
 		</br>
 		</br>
 		<label> Add email</label>
@@ -112,7 +112,7 @@ body {
 		<input type="submit" id="submit" name="submit" class="submitButtons" value="Add"> 
     </form>
 	
-		<form action="../deleteContact.php" method="post">
+		<form action="../EditAlias/deleteContact.php" method="post">
 		</br>
 		</br>
 		<label> Delete Email </label>

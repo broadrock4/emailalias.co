@@ -6,10 +6,10 @@ session_start();
 
 // Check if the user is logged in, if not then redirect him to login page
 if ( !isset( $_SESSION[ "loggedin" ] ) || $_SESSION[ "loggedin" ] !== true ) {
-  header( "location: Login.php" );
+  header( "location: ../Login/Login.php" );
   exit;
 }
-include "../html/config.php";
+include "../Config/config.php";
 $tempGroup = $_SESSION[ "group_name" ];
 $tempUser = $_SESSION[ "id" ];
 $tempEmail = mysqli_real_escape_string( $link, $_POST[ 'add_email' ] );
@@ -29,7 +29,7 @@ for ( $i = 0; $i < 10; $i++ ) {
   }
 	
 }
-header("location: ../editGroup.php");
+header("location: ../EditAlias/editGroup.php");
 // Close connection
 mysqli_close( $link );
 ?>
