@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractConfigurationProvider.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="AwsClient.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="AwsClientInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="AwsClientTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="CacheInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ClientResolver.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Command.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="CommandInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="CommandPool.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ConfigurationProviderInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="DoctrineCacheAdapter.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="EndpointParameterMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="functions.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="HandlerList.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="HasDataTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="HashingStream.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="HashInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="HasMonitoringEventsTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="History.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="IdempotencyTokenMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="InputValidationMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="JsonCompiler.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="LruArrayCache.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Middleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="MockHandler.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="MonitoringEventsInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="MultiRegionClient.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="PhpHash.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="PresignUrlMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Psr16CacheAdapter.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="PsrCacheAdapter.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ResponseContainerInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Result.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ResultInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ResultPaginator.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="RetryMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="RetryMiddlewareV2.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Sdk.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="StreamRequestPayloadMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="TraceMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Waiter.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="WrappedHttpHandler.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+</dwsync>

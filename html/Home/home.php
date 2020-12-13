@@ -26,12 +26,23 @@ body {
 </style>
 </head>
 <body>
+<script type="text/javascript"> 
+function anyvalidate() {
+var valEmail = document.getElementById("contact");
+var valGroup = document.getElementById("group");
+if (   valEmail.value == ""
+	&& valGroup.value == ""
+	) {
+alert( "You need to add a group or a contact!" );
+     return false;
+	 }
+	 }
+ </script>
 <div class="page-header"> <img src="../Styles/Logo.png" alt="Logo" style="width:50%;">
   <p>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</p>
 </div>
 <div class="navBar"> 
 	<a class="active" href="../Home/home.php">Home</a> 
-	<a href="#newEmail.php">New Email</a> 
 	<a href="../NewAlias/newAlias.php">New Alias</a> 
 	<a href="../Contact/contact.php">New Contact</a> 
 	<a href="../EditAlias/editGroup.php">Edit Alias</a>
@@ -60,16 +71,28 @@ body {
       } else {
         echo "0 results"; 
       }
-		
+
       ?>
     </div>
   </div>
   <div class="col-2">
-    <h2> Inbox </h2>
-    <form action="">
-       <textarea class="inboxArea" placeholder="Insert inbox?"> </textarea>
+    <h2> Send Email </h2>
+	  <p> If you want to email one contact fill "To Contact:" </br> If you want to email a group fill "To Group:"</p>
+    <form name="form" action="../Home/sendEmail.php" onSubmit="return anyvalidate()" method="post">
+	
+		<input type="text" name="contact" id="contact" placeholder="To Contact:"/>
+		
+      <input type="text" name="group" id="group" placeholder="To Group:"/>
+	
+      <input type="text" style="text-align: center; width: 100%" name="subject" id="subject" required placeholder="Subject"/>
+	</br>
+       <textarea class="bodyArea" name="body" required id="body" placeholder="Enter text here..."></textarea>
+	</br>
+	<input type="submit" name="sendEmail" value="Send" />
     </form>
   </div>
 </div>
 </body>
 </html>
+
+

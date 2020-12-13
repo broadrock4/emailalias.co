@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractMonitoringMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ApiCallAttemptMonitoringMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ApiCallMonitoringMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Configuration.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ConfigurationInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ConfigurationProvider.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="MonitoringMiddlewareInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+</dwsync>

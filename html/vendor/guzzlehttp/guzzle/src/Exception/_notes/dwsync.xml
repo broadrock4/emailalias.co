@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="BadResponseException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="ClientException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="ConnectException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="GuzzleException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="InvalidArgumentException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="RequestException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="SeekException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="ServerException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="TooManyRedirectsException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="TransferException.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+</dwsync>

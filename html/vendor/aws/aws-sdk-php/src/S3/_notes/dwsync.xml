@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AmbiguousSuccessParser.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ApplyChecksumMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="BatchDelete.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="BucketEndpointArnMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="BucketEndpointMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="EndpointRegionHelperTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="GetBucketLocationParser.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="MultipartCopy.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="MultipartUploader.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="MultipartUploadingTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ObjectCopier.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="ObjectUploader.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="PermanentRedirectMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="PostObject.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="PostObjectV4.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="PutObjectUrlMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="RetryableMalformedResponseParser.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3Client.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3ClientInterface.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3ClientTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3EndpointMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3MultiRegionClient.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3UriParser.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="SSECMiddleware.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="StreamWrapper.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="Transfer.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+</dwsync>

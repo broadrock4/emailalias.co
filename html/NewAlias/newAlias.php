@@ -33,9 +33,8 @@ body {
   <p><b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Create new groups .</p>
 </div>
 <div class="navBar"> 
-	<a class="active" href="../Home/home.php">Home</a> 
-	<a href="#newEmail.php">New Email</a> 
-	<a href="../NewAlias/newAlias.php">New Alias</a> 
+	<a  href="../Home/home.php">Home</a> 
+	<a class="active" href="../NewAlias/newAlias.php">New Alias</a> 
 	<a href="../Contact/contact.php">New Contact</a> 
 	<a href="../EditAlias/editGroup.php">Edit Alias</a>
   <div class="navBar-right"> 
@@ -92,6 +91,7 @@ body {
       <input type="email" name="email8" placeholder="Enter email" class="form-control"/>
       <input type="email" name="email9" placeholder="Enter email" class="form-control"/>
       <input type="email" name="email10" placeholder="Enter email" class="form-control"/>
+		  </br>
 	  <input type="submit" id="submit" name="submit" class="submitButtons" value="Submit">
     </form>
    </div>

@@ -101,7 +101,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
-                header("location: ../Login/Login.php");
+				session_start();
+				$_SESSION['email'] = $email;
+                header("location:/validate.php");
             } else{
                 echo "Something went wrong. Please try again later.";
             }
@@ -132,6 +134,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div>
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>
+		<p> After creating your account an email will be sent to the one provided for email verification </p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 			
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
@@ -170,6 +173,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <p>Already have an account? <a href="../Login/Login.php">Login here</a>.</p>
         </form>
+
     </div>    
 </body>
 </html>

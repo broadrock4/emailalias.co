@@ -29,7 +29,6 @@ body {
 </div>
 <div class="navBar"> 
 	<a class="active" href="../Home/home.php">Home</a> 
-	<a href="#newEmail.php">New Email</a> 
 	<a href="../NewAlias/newAlias.php">New Alias</a> 
 	<a href="../Contact/contact.php">New Contact</a> 
 	<a href="../EditAlias/editGroup.php">Edit Alias</a>
@@ -80,7 +79,7 @@ body {
 		  $tempGroup = $_SESSION["group_name"];
 		  $tempUser = $_SESSION["id"];
 		  $sql2 = "SELECT email1, email2, email3, email4, email5, email6, email7, email8, email9, email10 FROM groups WHERE id_user ='$tempUser' AND group_name = '$tempGroup'";
-			  echo "Selected Group ";
+			  echo "Selected Group: ";
 			  echo("</br>");
 			  echo($tempGroup);
 		  $result2 = $link->query( $sql2 );

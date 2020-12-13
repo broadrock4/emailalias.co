@@ -2,10 +2,8 @@
 <dwsync>
 <file name="index.html" server="3.139.224.86//var/www/" local="132521259504210743" remote="132521261680000000" Dst="1" />
 <file name="landing.js" server="3.139.224.86//var/www/" local="132494595900000000" remote="132494595900000000" Dst="1" />
-<file name="newAlias.php" server="3.139.224.86//var/www/" local="132521287600000000" remote="132521302290000000" Dst="1" />
-<file name="addGroup.php" server="3.139.224.86//var/www/" local="132505049200000000" remote="132521302180000000" Dst="1" />
-<file name="editGroup.php" server="3.139.224.86//var/www/" local="132515348050000000" remote="132521302230000000" Dst="1" />
-<file name="showGroupEmails.php" server="3.139.224.86//var/www/" local="132505684070000000" remote="132521302390000000" Dst="1" />
-<file name="deleteContact.php" server="3.139.224.86//var/www/" local="132505843250000000" remote="132521302210000000" Dst="1" />
-<file name="addContact.php" server="3.139.224.86//var/www/" local="132521290160000000" remote="132521302170000000" Dst="1" />
+<file name="composer.phar" server="3.139.224.86//var/www/" local="132521320810000000" remote="132521320810000000" Dst="1" />
+<file name="composer.json" server="3.139.224.86//var/www/" local="132522187490000000" remote="132522187490000000" Dst="1" />
+<file name="validate.php" server="3.139.224.86//var/www/" local="132522263935259638" remote="132522263950000000" Dst="1" />
+<file name="composer.lock" server="3.139.224.86//var/www/" local="132522187490000000" remote="132522187490000000" Dst="1" />
 </dwsync>

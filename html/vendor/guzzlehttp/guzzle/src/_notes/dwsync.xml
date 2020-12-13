@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Client.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="ClientInterface.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="functions.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="functions_include.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="HandlerStack.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="MessageFormatter.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="Middleware.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="Pool.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="PrepareBodyMiddleware.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="RedirectMiddleware.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="RequestOptions.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="RetryMiddleware.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="TransferStats.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="UriTemplate.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+<file name="Utils.php" server="3.139.224.86//var/www/" local="132368184660000000" remote="132368184660000000" Dst="1" />
+</dwsync>

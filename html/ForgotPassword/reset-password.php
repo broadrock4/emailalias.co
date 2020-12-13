@@ -15,7 +15,7 @@ if (isset($_GET["key"]) && isset($_GET["email"]) && isset($_GET["action"])
 <p>The link is invalid/expired. Either you did not copy the correct link
 from the email, or you have already used the key in which case it is 
 deactivated.</p>
-<p><a href="../index.php">
+<p><a href="../ForgotPassword/index.php">
 Click here</a> to reset password.</p>';
  }else{
   $row = mysqli_fetch_assoc($query);
@@ -24,7 +24,8 @@ Click here</a> to reset password.</p>';
   ?>
  <link rel="stylesheet" href="../Styles/emailAlias.css">
   <br />
-  <form method="post" action="" name="update">
+<div style="margin-left: auto; margin-right: auto; text-align: center">
+  <form method="post" action="" name="update" style="margin-left: auto; margin-right: auto">
   <input type="hidden" name="action" value="update" />
   <br /><br />
   <label><strong>Enter New Password:</strong></label><br />
@@ -36,6 +37,7 @@ Click here</a> to reset password.</p>';
   <input type="hidden" class="form-control" name="email" value="<?php echo $email;?>"/>
   <input type="submit" class="submitButton" value="Reset Password" />
   </form>
+</div>
 <?php
 }else{
 $error .= "<h2>Link Expired</h2>

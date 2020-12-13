@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CryptoParamsTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="CryptoParamsTraitV2.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="HeadersMetadataStrategy.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="InstructionFileMetadataStrategy.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3EncryptionClient.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3EncryptionClientV2.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3EncryptionMultipartUploader.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="S3EncryptionMultipartUploaderV2.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+<file name="UserAgentTrait.php" server="3.139.224.86//var/www/" local="132521875380000000" remote="132521875380000000" Dst="1" />
+</dwsync>

@@ -31,7 +31,6 @@ body {
 </div>
 <div class="navBar"> 
 	<a class="active" href="../Home/home.php">Home</a> 
-	<a href="#newEmail.php">New Email</a> 
 	<a href="../NewAlias/newAlias.php">New Alias</a> 
 	<a href="../Contact/contact.php">New Contact</a> 
 	<a href="../EditAlias/editGroup.php">Edit Alias</a>

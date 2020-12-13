@@ -49,10 +49,10 @@ your account and change your security password as someone may have guessed it.</
 $output.='<p>Thanks,</p>';
 $output.='<p>Email Alias Team</p>';
 $body = $output; 
-$subject = "Password Recovery - www.emailalias.co";
- 
-$email_to = $email;
-$fromserver = "tyburdick4@gmail.com"; 
+$subject = "Password Recovery - www.emailalias.co";   
+
+$email_to = $email; 
+$fromserver = "burdi009@cougars.csusm.edu"; 
 include('../phpmailer/vendor/autoload.php');
 $mail = new PHPMailer();
 $mail->IsSMTP();
@@ -66,7 +66,7 @@ $mail->From = "tyburdick4@gmail.com";
 $mail->FromName = "Tyler Burdick";
 $mail->Sender = $fromserver; // indicates ReturnPath header
 $mail->Subject = $subject;
-$mail->Body = $body;
+$mail->Body = $body;	   
 $mail->AddAddress($email_to);
 if(!$mail->Send()){
 echo "Mailer Error: " . $mail->ErrorInfo;
@@ -79,6 +79,7 @@ echo "<div class='error'>
 }else{
 ?>
 <link rel="stylesheet" href="../Styles/emailAlias.css">
+<div style="margin-left: auto; margin-right: auto; text-align: center">
 <form method="post" action="" name="reset" class="indexLocation"><br /><br />
 <label><strong>Enter Your Email Address:</strong></label><br /><br />
 <input type="email" name="email" class="form-control" placeholder="username@email.com" />
@@ -87,6 +88,7 @@ echo "<div class='error'>
 	<p>Don't want to change password </p>
 <a href="../Login/Login.php" class="submitButtons">Cancel</a>
 </form>
+	</div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
