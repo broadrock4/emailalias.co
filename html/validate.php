@@ -14,8 +14,8 @@ $SesClient = new Aws\Ses\SesClient([
     'version'     => 'latest',
     'region'      => 'us-east-2',
     'credentials' => [
-        'key'    => 'AKIAIVDFTCE4J7TMAKQQ',
-        'secret' => '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',
+        'key'    => 
+        'secret' => 
     ],
 ]);
 
